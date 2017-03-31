@@ -210,6 +210,7 @@ body {
 }
 
 @media (max-width: 540px) {
+  /*
   #header {
     height: 80px;
   }
@@ -224,6 +225,7 @@ body {
   #main {
     top: 80px;
   }
+  */
   .no-menu #header {
     height: 40px;
   }
