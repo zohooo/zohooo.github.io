@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JaxEdit Website</title>
+<!-- copyright (c) 2011-2013 JaxEdit project -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="online LaTeX editor with live preview" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<!--[if lt IE 8]>
+<script>
+  alert("Your browser is too old. Please upgrade it to latest version.");
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="page/main.css" />
+</head>
+<body>
+<div id="header">
+  <div class="center">
+    <a id="project">JaxEdit Website</a>
+    <div id="menu">
+      Some Things About TeX
+    </div>
+  </div>
+</div>
+<div id="main">
+  <div id="content" class="center">
+    <h3><a href="page/jaxedit.html">JaxEdit</a></h3>
+    <p>An online LaTeX editor with instant preview.</p>
+    <hr>
+    <h3><a href="page/jaxmark.html">JaxMark</a></h3>
+    <p>Write markdown with LaTeX in browser.</p>
+    <hr>
+    <h3><a href="page/jekyde.html">Jekyde</a></h3>
+    <p>A Static blog generater, server and writer.</p>
+    <hr>
+    <h3><a href="http://zohooo.github.io/quadtext">QuadText</a></h3>
+    <p>A lightweight LaTeX editor written in wxLua.</p>
+    <hr>
+    <h3><a href="http://zohooo.github.io/quadview">QuadView</a></h3>
+    <p>A live preview plugin for LaTeX editor WinEdt.</p>
+  </div>
+</div>
+<div id="footer">
+  <div class="center">
+    <a href="page/jaxedit.html">JaxEdit</a>
+    <a href="page/jaxmark.html">JaxMark</a>
+    <a href="page/jekyde.html">Jekyde</a>
+    <a href="http://zohooo.github.io/quadtext">QuadText</a>
+    <a href="http://zohooo.github.io/quadview">QuadView</a>
+  </div>
+</div>
+<script type="text/javascript" src="/stat/?js"></script>
+<script>
+setTimeout(function(){
+  if (location.search == "?help"){
+    location.href = "page/help.html" + location.hash;
+  } else if (location.hash == "#help") {
+    location.href = "page/help.html";
+  }
+}, 3000);
+</script>
+</body>
+</html>
